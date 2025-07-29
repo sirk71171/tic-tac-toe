@@ -1,0 +1,18 @@
+#boardContainer {
+    height: 80vh;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "cell1 cell2 cell3"
+                         "cell4 cell5 cell6"
+                         "cell7 cell8 cell9";
+
+    border: 2px solid black;
+}
+
+.cell {
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+}
